@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="tabStyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<nav class="tab">
+  <h1 class="tablinks" id ="defaultOpen" onclick="openCity(event, 'Home')">The Balloonatic Asymlum</h1>
+  <div id="mainTabButtons">
+    <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+    <button class="tablinks" onclick="openCity(event, 'Product')">Product</button>
+    <button class="tablinks" onclick="openCity(event, 'ContactUs')">ContactUs</button>
+</div>
+</nav>
+<nav id = "subNav" class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Product')">Birthday Bouquets</button>
+    <button class="tablinks" onclick="openCity(event, 'Product')">Balloony Occasions</button>
+    <button class="tablinks" onclick="openCity(event, 'Product')">Build A Balloon</button>
+    <button class="tablinks" onclick="openCity(event, 'Product')">Decorating with Balloon</button>
+    <button class="tablinks" onclick="openCity(event, 'Product')">Balloons In Bulk</button>
+  </nav>
+<section id="Home" class="tabcontent">
+
+    <section id="hero">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="h1.jpg" alt="halloween" style="width:100%; height:45vh; margin: 4%;">
+              </div>
+        
+              <div class="item">
+                <img src="h2.jpg" alt="blackFriday" style="width:100%; height: 45vh; margin: 4%;">
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        
+    </section>
+    <div id=homeContent>
+        <section id="mainSection">
+        <p class="sectionTitle">Product Offers</p>
+        <article class="product">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            repellendus suscipit praesentium dolore dolores! Explicabo,
+            perspiciatis. Voluptate sapiente asperiores modi? Veritatis error
+            voluptatibus dolorum suscipit!
+        </article>
+        <article class="product">Product 2</article>
+        <article class="product">Product 3</article>
+        <article class="product">Product 4</article>
+        <article class="product">Product 5</article>
+        </section>
+        <aside id="mainAside">
+        <p class="sectionTitle">Customer Tributes</p>
+        <article class="quote">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+            asperiores exercitationem, necessitatibus atque officiis accusantium?
+        </article>
+        <article class="quote">Quote 2</article>
+        <article class="quote">Quote 3</article>
+        <article class="quote">Quote 4</article>
+        </aside>
+    </div>
+
+
+</section>
+<section id="About" class="tabcontent">
+  <h2>About Us</h2>
+  <div id="aboutContent">
+      <img src="boy.jpg" id="aboutImage" alt="Jaanu" ></img>
+      <summary id="aboutSummary">
+        About Balloon Asylum
+        Helping others create unforgettable moments is what we live for. 
+        That's why our team of party scientists create innovative products, brainstorm wild party ideas, 
+        and meticulously track trendy trends (unicorns are sooo IN right now). 
+        It doesn't matter if you're celebrating taco Tuesday or your grandma's 100th birthday, 
+        every party deserves to be extraordinary, especially when it comes to the Halloween season.
+        As far as we're concerned, Halloween isn't just one night. Oh, no no no. 
+        It's a season-long, orange and black spectacle. It's trips to the pumpkin patch, 
+        decorating, pumpkin carving, picking the perfect costume, picking another perfect costume (just in case), 
+        more decorating, trick-or-treating, costume contests, and throwing a petrifying party.
+        We firmly believe that you're never too old to dress up and that being unapologetically 
+        unique is what we should all strive for. Sure, you could be a nurse. 
+        Or, you can take it to the next level by being a bearded zombie nurse from the 70s. 
+        Just sayin'. Whether you're dressing to impress or decorating to distress, be unforgettable.
+        With hundreds of stores filled with thousands of products across the United States, 
+        you're sure to find the perfect costume, party theme, or inspiration for your next party.
+      </summary>
+    </div>
+</section>
+
+<section id="Product" class="tabcontent">
+  <div class="grid">
+    <article id = "productCard1" class="productCard" >
+        <img src="p1.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Seamlessly visualize quality</h3>
+        <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+      </article>
+      <article id = "productCard2" class="productCard" >
+        <img src="p2.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Seamlessly visualize quality</h3>
+        <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+      </article>
+      <article id = "productCard3" class="productCard" >
+        <img src="p9.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Seamlessly visualize quality</h3>
+        <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+      </article>
+      <article id = "productCard4" class="productCard" >
+        <img src="p4.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Seamlessly visualize quality</h3>
+        <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+      </article>
+      <article id = "productCard5" class="productCard" >
+        <img src="p5.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Seamlessly visualize quality</h3>
+        <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+      </article>
+      <article id = "productCard6" class="productCard" >
+        <img src="p9.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Seamlessly visualize quality</h3>
+        <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+      </article>
+      <article id = "productCard7" class="productCard" >
+        <img src="p7.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Seamlessly visualize quality</h3>
+        <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+      </article>
+      <article id = "productCard8" class="productCard" >
+        <img src="p8.jpg" alt="Sample photo">
+      <div class="text">
+        <h3>Seamlessly visualize quality</h3>
+        <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+      </article>
+      
+
+    </div>
+    
+</section>
+
+<section id="ContactUs" class="tabcontent">
+  <h3 class="ContactTitle">ContactUs</h3>
+  <div id="contactContent">
+      <p id="contactSummary"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt minima, 
+          enim pariatur dolor assumenda consequuntur maxime amet repellendus facilis 
+          fugiat, ipsa architecto cum quae veniam voluptates eveniet quam ex error!</p>
+    <h2 class="ContactTitle">SubScribe here to get personal mails from Us</h2>
+    <form name="form1">
+        <input type='text' name='text1'/>
+        <br>
+        <br>
+        <input class="subscribeButton" type="submit" value="Subscribe Now!" onclick="ValidateEmail(document.form1.text1)">
+    </form>
+  </div>
+</section>
+<footer>
+    <em id="footerIcons" class="fa fa-whatsapp" ></em>
+    <em id="footerIcons"class="fa fa-instagram" ></em>
+    <em id="footerIcons" class="fa fa-facebook-square" ></em>
+    <p>Designed and Developed by Navilash</p>
+
+  </footer>
+</html> 
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+function ValidateEmail(inputText)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(inputText.value.match(mailformat))
+{
+alert("Valid email address!");
+document.form1.text1.focus();
+return true;
+}
+else
+{
+confirm("You have entered an invalid email address!");
+window.location.hash = "ContactUs"
+return false;
+}
+}
+
+
+</script>
+   
+</body>
